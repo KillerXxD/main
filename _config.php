@@ -1,7 +1,7 @@
 
 <?php 
 
-$conn = new mysqli("HOSTNAME", "USERNAME", "PASSWORD", "DATABASE"); //just like $conn = new mysqli("localhost", "root", "", "anipaca");
+$conn = new mysqli("suggestmeone.gamer.gd", "if0_41411294", "yusuf78692", "if0_41411294 (Anime)"); //just like $conn = new mysqli("localhost", "root", "", "anipaca");
 
 
 if ($conn->connect_error) {
@@ -9,21 +9,21 @@ if ($conn->connect_error) {
     echo("Database connection failed.");
 }
 
-$websiteTitle = "AniPaca";
+$websiteTitle = "Killerrr!!!!";
 $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? "https" : "http";
 $websiteUrl = "{$protocol}://{$_SERVER['SERVER_NAME']}";
 $websiteLogo = $websiteUrl . "/public/logo/logo.png";
-$contactEmail = "raisulentertainment@gmail.com";
+$contactEmail = "soon@gmail.com";
 
 $version = "1.0.2";
 
-$discord = "https://dcd.gg/anipaca";
-$github = "https://github.com/PacaHat";
-$telegram = "https://t.me/anipaca";
-$instagram = "https://www.instagram.com/pxr15_"; 
+$discord = "https://dcd.gg/shitcord";
+$github = "https://github.com/KillerXxD";
+$telegram = "https://t.me/killertlg";
+$instagram = "https://www.instagram.com/_kill4r._"; 
 
 // all the api you need
-$zpi = "https://your-hosted-api.com/api"; //https://github.com/PacaHat/zen-api
+$zpi = "https://zenapi-chi.vercel.app/"; //https://github.com/PacaHat/zen-api
 $proxy = $websiteUrl . "/src/ajax/proxy.php?url=";
 
 //If you want faster loading speed just put // before the first proxy and remove slashes from this one 
