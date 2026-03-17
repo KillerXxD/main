@@ -1,7 +1,7 @@
 
 <?php 
 
-$conn = new mysqli("suggestmeone.gamer.gd", "if0_41411294", "yusuf78692", "if0_41411294 (Anime)"); //just like $conn = new mysqli("localhost", "root", "", "anipaca");
+$conn = new mysqli("sql302.infinityfree.com", "if0_41413138", "yusuf78692", "if0_41413138_anipaca"); //just like $conn = new mysqli("localhost", "root", "", "anipaca");
 
 
 if ($conn->connect_error) {
